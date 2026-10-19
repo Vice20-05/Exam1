@@ -8,7 +8,7 @@ class TeleportalosUrZokni extends  Urzokni{
     }
 
     public String getGalaxis(){
-        return  galaxis;
+        return  galaxis;//we give back the galaxis
     }
     @Override 
     public String cimke(){
