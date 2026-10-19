@@ -21,7 +21,8 @@ public class Urzokni {
     if(tisztasagPont<0){ //the idea is that if tisztasagPont is smaller or equal to -1 
       //it gives the respected error ,or if it's 
      System.err.println("tisztasagPont nem lehet negativ az ertek");
-      //throw.IllegalAccessException("Nem lehet negativ vagy null"); didn't know how the throw IllegalAccessException syntax is 
+      //throw.IllegalAccessException("Nem lehet negativ vagy null"); didn't know how the throw IllegalAccessException syntax
+      //is so i just made it to display an error  
     }
     return  tisztasagPont; // we don't need getTisztasagPont since it's a getter , we just return the value
    }

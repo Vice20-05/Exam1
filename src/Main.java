@@ -23,6 +23,7 @@ public  class Main {
             if (number is ==-1 ) returns "0";
             else if a number is dublicate it returns just 1 of the instances
             if there's a missing number ->adds the missing number so it goes sequentially 
+    
         }
     }
         */
