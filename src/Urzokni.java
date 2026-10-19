@@ -26,6 +26,6 @@ public class Urzokni {
    }
 
    public  String cimke(){
-    return azonosito+": "+tisztasagPont;
+    return azonosito+" : "+tisztasagPont;
    }   
 }

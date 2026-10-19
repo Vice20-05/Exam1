@@ -12,7 +12,7 @@ class TeleportalosUrZokni extends  Urzokni{
     }
     @Override 
     public String cimke(){
-        return "Teleport zokni: "+azonosito;
+        return " Teleport zokni: "+azonosito+" ";
     }
 
 }
