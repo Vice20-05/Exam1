@@ -8,9 +8,20 @@ public class Urzokni {
    }
 
    public void mosas(int pluszPont){
+    
     tisztasagPont+=pluszPont;
    }
+
+  public  String getAzonosito(){
+    return azonosito;
+  }
+
+
    public  int getTisztasagPont(){
+    if(tisztasagPont<=-1){
+     System.err.println("tisztasagPont nem lehet negativ az ertek");
+      //throw.IllegalAccessException("Nem lehet negativ vagy null"); didn't know how the throw IllegalAccessException syntax is 
+    }
     return  tisztasagPont; // we don't need getTisztasagPont since it's a getter , we just return the value
    }
 
